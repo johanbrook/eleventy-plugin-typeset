@@ -1,0 +1,51 @@
+{
+  "name": "eleventy-plugin-typeset",
+  "version": "1.0.0",
+  "description": "A plugin to create nicer typography in sites built with Eleventy.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanbrook/eleventy-plugin-typeset.git"
+  },
+  "keywords": [
+    "eleventy",
+    "typeset",
+    "plugin",
+    "typography",
+    "punctuation",
+    "quotes",
+    "11ty"
+  ],
+  "author": "Johan Brook <johan@johanbrook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johanbrook/eleventy-plugin-typeset/issues"
+  },
+  "homepage": "https://github.com/johanbrook/eleventy-plugin-typeset#readme",
+  "dependencies": {
+    "typeset": "^0.2.2"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "arrowParens": "always"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "commonjs": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  }
+}
