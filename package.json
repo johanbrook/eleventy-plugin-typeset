@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-typeset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin to create nicer typography in sites built with Eleventy.",
   "main": "index.js",
   "scripts": {
