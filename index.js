@@ -1,4 +1,4 @@
-const applyTypeset = require('./typeset');
+const applyTypeset = require('./typeset-plugin');
 
 module.exports = (options) => (eleventyConfig, pluginNamespace) => {
   eleventyConfig.namespace(pluginNamespace, () => {
